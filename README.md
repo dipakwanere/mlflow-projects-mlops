@@ -1,9 +1,9 @@
 # mlflow-projects-mlops
-Officcial Reasource: https://mlflow.org/docs/latest/ml/
+Official Resource: https://mlflow.org/docs/latest/ml/
 
 # Example MLFlow Projects
 
-This repository is part of the MLOps Coursera Course with practical examples to apply different MLFlow techniques for understanding the components of MLFlow better.
+This repository is part of the MLOps Coursera Course, with practical examples to apply different MLFlow techniques for understanding the components of MLFlow better.
 
 
 ## Create an MLFlow Project
@@ -16,7 +16,7 @@ For this project, we'll use a small CSV file with data about wines, called [wine
 
 Before going into the details of the project, you probably have a good idea of what you need to install. I recommend setting up a Conda environment first. Even if you prefer using `pip` for installing dependencies, you can still define that with a Conda environment.
 
-This early in the project's lifecycle you are probably not ready to do some training, so let's only concentrate in exploratory work for the dataset.
+This early in the project's lifecycle, you are probably not ready to do some training, so let's only concentrate in exploratory work for the dataset.
 
 ```
 conda create --name exploratory python=3.8
@@ -28,7 +28,7 @@ Once the environment is created, activate it so that packages are installed in t
 conda activate exploratory
 ```
 
-Next, with the _exploratory_ environment activated export the dependencies so a new YAML file named _conda_env.yml_
+Next, with the _exploratory_ environment activated, export the dependencies so a new YAML file named _conda_env.yml_
 
 ```
 conda env export --name exploratory > conda_env.yml
